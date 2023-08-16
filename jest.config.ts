@@ -10,7 +10,6 @@ const config: Config = {
 	coverageDirectory: "coverage",
 	collectCoverageFrom: [
 		"<rootDir>/src/**/*.ts",
-		"!<rootDir>/src/main/**",
 	],
 	// transformIgnorePatterns: ['<rootDir>/node_modules/'],
 	transform: {
